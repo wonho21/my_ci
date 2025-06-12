@@ -29,7 +29,7 @@ jobs:
   test:
     runs-on: ubuntu-latest
     env:
-      PROJECT_DIR: basic-ci
+      PROJECT_DIR: basic_ci
 
     steps:
       - uses: actions/checkout@v2
