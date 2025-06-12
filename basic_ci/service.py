@@ -31,3 +31,4 @@ def validate_users(users: list[UserDict]) -> list[User]:
 
 def filter_active_users(users: list[User]) -> list[User]:
     return [user for user in users if user.is_active]
+
